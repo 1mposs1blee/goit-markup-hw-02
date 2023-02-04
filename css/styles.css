@@ -1,0 +1,232 @@
+/* ===================Universal=================== */
+
+:root {
+  --primary-bg-color: #ffffff;
+  --secondary-bg-color: #f4f4fd;
+  --primary-text-color: #434455;
+  --secondary-text-color: #2e2f42;
+  --accent-color: #404bbf;
+  --acent-text-color: #ffffff;
+}
+
+body {
+  font-family: 'Roboto', sans-serif;
+  color: var(--primary-text-color);
+  background-color: var(--primary-bg-color);
+}
+
+.list-style {
+  list-style: none;
+}
+
+.main-nav-link.current {
+  color: var(--accent-color);
+}
+
+/* ===================WebStudio=================== */
+
+/* ===================Header=================== */
+
+.logo {
+  font-family: 'Raleway', sans-serif;
+  font-weight: 800;
+  font-size: 18px;
+  line-height: 1.33;
+
+  letter-spacing: 0.03em;
+  text-transform: uppercase;
+  text-decoration: none;
+}
+
+.logo.header {
+  color: var(--secondary-text-color);
+}
+
+.half-logo {
+  color: #4d5ae5;
+}
+
+.main-nav-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--secondary-text-color);
+}
+
+.main-nav-link:hover,
+.main-nav-link:focus {
+  color: var(--accent-color);
+}
+
+.mail-link,
+.tel-link {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 400;
+  font-size: 16px;
+  font-style: normal;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  text-decoration: none;
+
+  color: var(--primary-text-color);
+}
+
+.contact:hover,
+.contact:focus {
+  color: var(--accent-color);
+}
+
+/* ===================Hero Section=================== */
+
+.hero-section {
+  background-color: #2e2f42;
+  --primary-text-color: #ffffff;
+}
+
+.hero-title {
+  font-size: 56px;
+  line-height: 1.07;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+.primary-btn {
+  color: #ffffff;
+  background-color: #4d5ae5;
+}
+.order-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.04em;
+  cursor: pointer;
+}
+.order-btn:hover,
+.order-btn:focus {
+  background-color: var(--accent-color);
+}
+
+/* ===================Section 2=================== */
+
+.advantage-title {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+.subtitle-descr {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+/* ===================Section 3=================== */
+
+.section-titles {
+  font-size: 36px;
+  line-height: 1.11;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+  text-transform: capitalize;
+
+  color: var(--secondary-text-color);
+}
+
+/* ===================Section 4=================== */
+
+.team-section {
+  background-color: var(--secondary-bg-color);
+}
+
+.section-subtitles {
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 1.2;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--secondary-text-color);
+}
+
+.work-position {
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
+
+/* ============Footer(with portfolio page)============== */
+
+.main-footer {
+  background-color: #2e2f42;
+}
+
+.logo.footer {
+  color: #f4f4fd;
+}
+
+.footer-phrase {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+  color: #e7e9fc;
+}
+
+/* ===================Portfolio=================== */
+/* ===================Section 1=================== */
+
+.secondary-btn {
+  color: #4d5ae5;
+  background-color: #f4f4fd;
+}
+.filter-btn {
+  font-family: 'Roboto', sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.5;
+
+  text-align: center;
+  letter-spacing: 0.04em;
+  cursor: pointer;
+
+  border: 1px solid #e7e9fc;
+}
+.filter-btn:hover,
+.filter-btn:focus {
+  color: var(--acent-text-color);
+  background-color: var(--accent-color);
+}
+
+.service-image-link {
+  text-decoration: none;
+}
+.service-industry {
+  font-size: 16px;
+  line-height: 1.5;
+
+  letter-spacing: 0.02em;
+
+  color: var(--primary-text-color);
+}
