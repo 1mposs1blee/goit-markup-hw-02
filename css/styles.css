@@ -29,7 +29,7 @@ body {
   color: var(--primary-text-color);
 }
 
-.main-item.current {
+.main-link.current {
   color: var(--accent-color);
 }
 
@@ -65,7 +65,6 @@ body {
 }
 
 /* ===================Web Studio=================== */
-
 /* ===================Header=================== */
 
 .logo {
@@ -80,26 +79,26 @@ body {
   color: var(--secondary-text-color);
 }
 
-.half-logo {
+.web-logo {
   color: #4d5ae5;
 }
 
-.main-item {
+.main-link {
   color: var(--secondary-text-color);
 }
 
-.main-item:hover,
-.main-item:focus {
+.main-link:hover,
+.main-link:focus {
   color: var(--accent-color);
 }
 
-.address-item {
+.address-link {
   font-weight: 400;
   color: var(--primary-text-color);
 }
 
-.address-item:hover,
-.address-item:focus {
+.address-link:hover,
+.address-link:focus {
   color: var(--accent-color);
 }
 
@@ -155,7 +154,6 @@ body {
 }
 
 /* ===================Portfolio=================== */
-
 /* ===================Section 1=================== */
 
 .secondary-btn {
